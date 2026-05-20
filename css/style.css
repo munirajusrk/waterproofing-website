@@ -31,10 +31,8 @@ header {
 
 header .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 2rem;
 }
 /* Ensure logo doesn't get pushed to the right when we want everything right-aligned */
 /* Actually, if we want everything right-aligned, logo will also go right */
@@ -98,7 +96,7 @@ nav {
     margin-right: 10px;
 }
 
-.logo-text h1 {
+.logo-text h4 {
     font-size: 1.8rem;
     color: #003366;
     margin: 0;
